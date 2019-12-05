@@ -60,7 +60,7 @@ class Hangman:
                 self.guessed_letters = self.guessed_letters[:i] + guess[0] + self.guessed_letters[i + 1:]
                 contains_guess = True
         if not contains_guess:
-            self.remaining_guesses -= 1
+            self.remaining_guesses == 1
 
         # check for letters that haven't been guessed
         unguessed_letters = False
